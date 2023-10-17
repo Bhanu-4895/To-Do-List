@@ -16,4 +16,5 @@ router.get('/login',ctrlOther.getLogin );
 // Route for the registration 
 router.get('/signup', ctrlOther.getRegistration);
 
+router.post('/signup', ctrlOther.postRegistration);
 module.exports = router;
